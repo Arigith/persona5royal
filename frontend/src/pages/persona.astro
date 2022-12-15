@@ -1,0 +1,15 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TablePersona from "../components/persona";
+const pageTitle = "Persona 5 Royal";
+---
+
+<BaseLayout pageTitle={pageTitle}>
+    <h2>Objective</h2>
+    <p>The plan on this page was to showcase that I can write a basic app.</p>
+    <p>The blueprint I went for was the following</p>
+    <img src='/images/BaseBlueprint.jpg' />
+    <p>My plan was to create my database and have a select dropdown filter my results were as follows</p>
+    
+<TablePersona client:only="react" />
+</BaseLayout>

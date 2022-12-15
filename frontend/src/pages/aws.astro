@@ -1,0 +1,9 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import EC2List from "../components/EC2List";
+const pageTitle = "AWS Instance Details"
+---
+
+<BaseLayout pageTitle={pageTitle}>
+    <EC2List client:only="react" />
+</BaseLayout>
