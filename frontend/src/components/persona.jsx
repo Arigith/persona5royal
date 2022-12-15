@@ -15,8 +15,8 @@ export default function TablePersona() {
         AllPersona();
     }, []);
 
-    function handleArcanaChange(event) {
-        setSelectedArcana(event.target.value);
+    function handleArcanaChange(evt) {
+        setSelectedArcana(evt.target.value);
     }
 
     return (
