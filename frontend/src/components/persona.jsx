@@ -49,7 +49,7 @@ export default function TablePersona() {
                 <option value="Judgement">Judgement</option>
                 <option value="Faith">Faith</option>
                 <option value="World">Councillor</option>
-                <option value="World">All</option>
+                <option value="World">World</option>
             </select>
         </label>
         <table>
